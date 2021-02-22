@@ -1,0 +1,32 @@
+$theme-colors: (
+  'primary': $b400,
+  'success': $g300,
+  'info': $t300,
+  'warning': $y300,
+  'danger': $r300,
+  'light': $d0,
+);
+
+$spacer: 1rem;
+$spacers: (
+  6: (
+    $spacer * 1.875,
+  ),
+);
+
+$body-color: $d800;
+
+$enable-gradients: true;
+$enable-transitions: true;
+
+$breadcrumb-bg: $base;
+$breadcrumb-divider-color: $n50;
+$breadcrumb-active-color: $d800;
+$breadcrumb-divider: quote('>');
+
+$alert-bg-level: 0;
+$alert-color-level: 0;
+$btn-font-size: 0.875rem;
+$btn-line-height: 1.7;
+
+$font-family-sans-serif: 'Roboto', sans-serif;
