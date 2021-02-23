@@ -1,6 +1,3 @@
-import { createStore, applyMiddleware } from "redux";
-import { Provider } from "react-redux";
-import thunk from "redux-thunk";
 import { NavLink, Switch, Route } from "react-router-dom";
 
 import AppHeader from "./AppHeader";
@@ -9,10 +6,6 @@ import Course from "./Course";
 import Jobs from "./jobs/Jobs";
 import PageNotFound from "./PageNotFound";
 import Applications from "./Applications";
-
-import rootReducer from "../reduxDariusz/rootReducer";
-
-const store = createStore(rootReducer, applyMiddleware(thunk));
 
 const App = () => {
   return (
